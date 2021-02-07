@@ -1,0 +1,14 @@
+name: EasySleep
+version: 1.0
+main: nl.jophuijbers.easy_sleep.Main
+author: Jop Huijbers
+api-version: 1.16
+
+commands:
+  sleep:
+    description: This command sets the amount of online players who need to be in bed in order to skip the night.
+    usage: |
+      /sleep fixed - Shows fixed amount of players who need te sleep.
+      /sleep percentage - Shows percentage of players who need te sleep.
+      /sleep fixed <number> - Sets fixed amount of players who need te sleep.
+      /sleep percentage <number> - Sets percentage of players who need te sleep.

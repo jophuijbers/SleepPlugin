@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact build-on-make="true" name="EasySleep.jar">
+    <output-path>$PROJECT_DIR$/../bukkit/plugins</output-path>
+    <root id="root">
+      <element id="archive" name="EasySleep.jar">
+        <element id="module-output" name="EasySleep" />
+      </element>
+    </root>
+  </artifact>
+</component>

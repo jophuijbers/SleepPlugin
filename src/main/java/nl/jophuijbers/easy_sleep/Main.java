@@ -68,7 +68,7 @@ public class Main extends JavaPlugin implements Listener {
         if (!isDay(world.getTime()) || world.hasStorm()) {
             if (fixed != 0) {
                 Bukkit.broadcastMessage(player.getName() + ChatColor.RED + " left its bed (" + sleeping + "/" + fixed + ").");
-            } else {
+            }else {
                 double min = Math.round(Math.ceil((percentage / 100.0) * total));
                 Bukkit.broadcastMessage(player.getName() + ChatColor.RED + " left its bed (" + sleeping + "/" + (int)min + ").");
             }

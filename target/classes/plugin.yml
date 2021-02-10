@@ -1,5 +1,5 @@
 name: EasySleep
-version: 1.0
+version: 1.1
 main: nl.jophuijbers.easy_sleep.Main
 author: Jop Huijbers
 api-version: 1.16
